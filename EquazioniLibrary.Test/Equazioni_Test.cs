@@ -25,7 +25,7 @@ namespace EquazioniLibrary.Test
             Assert.AreEqual(respattesa, resp);
         }
         [TestMethod]
-        public void TestIsDetermired2()
+        public void TestIsDetermired2() 
         {
             double a = -2;
             bool respattesa = true, resp = Equazioni.IsDetermired(a);
